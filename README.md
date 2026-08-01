@@ -25,8 +25,7 @@ Estos hallazgos abren la puerta a nuevos tratamientos dirigidos según el perfil
 *   *Implementar* un flujo de trabajo bioinformático reproducible y estandarizado en el lenguaje R utilizando paquetes de la suite Bioconductor.
 
 ## :dart: Objetivo general
-El objetivo general de estudiar los biomarcadores en cardiomiopatías mediante RNA-seq es explorar y comprender de manera amplia los perfiles transcriptómicos que reflejan las alteraciones fisiológicas y moleculares del miocardio, con el fin de identificar señales diagnósticas tempranas, establecer parámetros pronósticos más precisos y descubrir posibles dianas terapéuticas que permitan avanzar hacia una medicina personalizada en el manejo integral de las cardiomiopatías.
-Este objetivo busca integrar la fisiología cardíaca con la información molecular obtenida por RNA-seq, de modo que se traduzca en aplicaciones clínicas que mejoren la detección, la estratificación de riesgo y el diseño de intervenciones dirigidas, favoreciendo una visión continua y holística del paciente desde la biología básica hasta la práctica clínica. Así mismo, se pretende plantear una metodología para el análisis de muestras genómicas con kits comerciales de generación de librerías y secuenciación de la casa comercial de Ilumina. 
+Se busca integrar la fisiología cardíaca con la información molecular obtenida por RNA-seq, de modo que se traduzca en aplicaciones clínicas que mejoren la detección, la estratificación de riesgo y el diseño de intervenciones dirigidas, favoreciendo una visión continua y holística del paciente desde la biología básica hasta la práctica clínica. Así mismo, se pretende plantear una metodología para el análisis de muestras genómicas con kits comerciales de generación de librerías y secuenciación de la casa comercial de Ilumina. 
 
 ## 📂 Estructura Modular del Repositorio
 Para cumplir con los estándares de reproducibilidad y ordenamiento del proyecto, el espacio de trabajo se organiza de la siguiente manera:
@@ -76,3 +75,6 @@ El pipeline generará gráficos avanzados de diagnóstico molecular. Un ejemplo 
 *   [Guía de referencia rápida de sintaxis Markdown (CheatSheet)](https://github.com)
 *   [Flujo de análisis y documentación del paquete DESeq2 (Vignette)](https://bioconductor.org)
 *   [Base de datos pública NCBI GEO (Gene Expression Omnibus)](https://nih.gov)
+*   [Identification and multi-layered validation of seven diagnostic biomarkers for dilated cardiomyopathy via integrative machine learning, single-cell transcriptomics, and Mendelian randomization – Front Cell Dev Biol, 2026] (pubmed.ncbi.nlm.nih.gov in Bing)
+*   [Single-nucleus RNA sequencing in ischemic cardiomyopathy reveals common transcriptional profile underlying end-stage heart failure – Cell Reports, 2023](pubmed.ncbi.nlm.nih.gov in Bing)
+*  [Identification of potential dilated cardiomyopathy-related targets by meta-analysis and co-expression analysis of human RNA-sequencing datasets – Life Sciences, 2022] (pubmed.ncbi.nlm.nih.gov in Bing)
