@@ -55,7 +55,7 @@ Rscript scripts/analisis_deseq2.R
 
 El pipeline generará gráficos avanzados de diagnóstico molecular. Un ejemplo del formato de salida esperado para identificar la magnitud del cambio de expresión frente a su significancia estadística (Volcano Plot) se ilustra a continuación:
 
-<img width="558" height="417" alt="Captura de pantalla 2026-07-31 191030" src="https://github.com/user-attachments/assets/26aa158c-8c14-44c0-b772-6d4361d73784" />
+<img width="577" height="577" alt="Captura de pantalla 2026-07-31 191846" src="https://github.com/user-attachments/assets/61bed249-9225-4e8c-ae6b-ccc78fbfbf2f" />
 
 
 ## 🔗 Enlaces de Interés y Documentación Científica
