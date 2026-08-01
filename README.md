@@ -1,4 +1,5 @@
-# Identificación de Biomarcadores en Cardiomiopatías mediante RNA-seq
+# Identificación de Biomarcadores en Cardiomiopatías mediante RNA-
+<img width="1517" height="912" alt="Cardiomyopathies" src="https://github.com/user-attachments/assets/63d3685a-e53b-413e-815f-a7e4ad122bd0" />
 
 | Estatus | Lenguaje | Herramienta | Control de Versiones |
 | :---: | :---: | :---: | :---: |
