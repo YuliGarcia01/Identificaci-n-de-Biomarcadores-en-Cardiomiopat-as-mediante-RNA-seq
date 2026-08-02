@@ -45,6 +45,7 @@ Para cumplir con los estándares de reproducibilidad y ordenamiento del proyecto
 
 ## :gear: Diagrama de flujo:
 
+```text
 GEO (RNA-seq)
       │
       ▼
@@ -70,6 +71,7 @@ Genes diferencialmente expresados
                     │
                     ▼
              Biomarcadores candidatos
+```
 
 
 ## 🛠️ Instrucciones de Instalación y Uso
