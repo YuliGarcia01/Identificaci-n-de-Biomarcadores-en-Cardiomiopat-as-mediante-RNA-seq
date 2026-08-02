@@ -29,6 +29,49 @@ Para cumplir con los estándares de reproducibilidad y ordenamiento del proyecto
 *   scripts/: Aloja exclusivamente el código fuente ejecutable en R (.R o .Rmd) encargado del procesamiento estadístico, filtrado y modelado de datos.
 *   results/: Contiene los archivos de salida generados, incluyendo tablas tabuladas de genes significativos (.csv) y los reportes gráficos de control de calidad.
 
+## :toolbox: Tecnologías utilizadas:
+
+- R 4.5
+- Bioconductor
+- DESeq2
+- clusterProfiler
+- org.Hs.eg.db
+- EnhancedVolcano
+- ggplot2
+- tidyverse
+- Git
+- GitHub
+
+
+## :gear: Diagrama de flujo:
+
+GEO (RNA-seq)
+      │
+      ▼
+Conteos crudos
+      │
+      ▼
+Control de calidad
+      │
+      ▼
+Filtrado
+      │
+      ▼
+Normalización (DESeq2)
+      │
+      ▼
+Genes diferencialmente expresados
+      │
+      ├────────► Volcano Plot
+      │
+      ├────────► Heatmap
+      │
+      └────────► GO / KEGG
+                    │
+                    ▼
+             Biomarcadores candidatos
+
+
 ## 🛠️ Instrucciones de Instalación y Uso
 
 ### Requisitos de Software
@@ -47,6 +90,12 @@ El pipeline generará gráficos avanzados de diagnóstico molecular. Un ejemplo 
 *   [Guía de referencia rápida de sintaxis Markdown (CheatSheet)](https://github.com)
 *   [Flujo de análisis y documentación del paquete DESeq2 (Vignette)](https://bioconductor.org)
 *   [Base de datos pública NCBI GEO (Gene Expression Omnibus)](https://nih.gov)
+
 *   [Identification and multi-layered validation of seven diagnostic biomarkers for dilated cardiomyopathy via integrative machine learning, single-cell transcriptomics, and Mendelian randomization – Front Cell Dev Biol, 2026] (pubmed.ncbi.nlm.nih.gov in Bing)
 *   [Single-nucleus RNA sequencing in ischemic cardiomyopathy reveals common transcriptional profile underlying end-stage heart failure – Cell Reports, 2023](pubmed.ncbi.nlm.nih.gov in Bing)
 *  [Identification of potential dilated cardiomyopathy-related targets by meta-analysis and co-expression analysis of human RNA-sequencing datasets – Life Sciences, 2022] (pubmed.ncbi.nlm.nih.gov in Bing)
+
+
+## :key: Licencia
+
+Este proyecto se distribuye bajo la licencia MIT.
