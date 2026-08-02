@@ -23,7 +23,7 @@ Estos hallazgos abren la puerta a nuevos tratamientos dirigidos según el perfil
 ##  🎯 Objetivo general
 Se busca integrar la fisiología cardíaca con la información molecular obtenida por RNA-seq, de modo que se traduzca en aplicaciones clínicas que mejoren la detección, la estratificación de riesgo y el diseño de intervenciones dirigidas, favoreciendo una visión continua y holística del paciente desde la biología básica hasta la práctica clínica. Así mismo, se pretende plantear una metodología para el análisis de muestras genómicas con kits comerciales de generación de librerías y secuenciación de la casa comercial de Ilumina. 
 
-## 📂 Estructura Modular del Repositorio
+## 📂 Estructura de las carpetas del Repositorio
 Para cumplir con los estándares de reproducibilidad y ordenamiento del proyecto, el espacio de trabajo se organiza de la siguiente manera:
 *   data/: Almacena de forma local las matrices de conteos genómicos crudos, archivos de índices y metadatos clínicos asociados a las muestras.
 *   scripts/: Aloja exclusivamente el código fuente ejecutable en R (.R o .Rmd) encargado del procesamiento estadístico, filtrado y modelado de datos.
